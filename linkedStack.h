@@ -14,7 +14,7 @@ typedef struct linkedStack {
 extern linkedStack* createLinkedStack();
 extern void destroyLinkedStack(linkedStack* s);
 extern int emptyLinkedStack(linkedStack* s);
-extern int fullLinkedStack(linkedStack* s);
+extern int fullLinkedStack(linkedStack* s);//있어도 되고 없어도 됨.
 extern int pushLinkedStack(linkedStack* s, const char* item);
 extern int popLinkedStack(linkedStack* s, char* item);
 extern int peekLinkedStack(linkedStack* s, char* item);
